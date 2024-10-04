@@ -1,113 +1,100 @@
-body{
-    font-family: Arial, Helvetica, sans-serif; 
-    margin: 20px; 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
     background-image: url(https://cdn.pixabay.com/photo/2022/03/29/22/24/astronaut-7100270_1280.png); 
-} 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
 
-h1{
-    text-align: center; 
-    color: #e7ebe8;  
-    font-family: 'Times New Roman', Times, serif; 
-    text-shadow: -1px 1px 4px #29015c;  
+h1 {
+    text-align: center;
+    color: #e7ebe8;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: -1px 1px 4px #29015c;
     font-size: 45px;
-} 
- 
+}
 
-form{ 
-    background-color: #00000093;  
+form {
+    background-color: #00000093;
     color: #ffffff;
-    padding: 25px; 
-    border-radius: 10px; 
-    max-width: 400px; 
-    margin: auto; 
-    box-shadow: 0 0 10px #6301e2;   
-} 
+    padding: 25px;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: auto;
+    box-shadow: 0 0 10px #6301e2;
+}
 
 label {
-    font-weight: bold; 
-    display: block; 
-    margin: 9px 0 5px 0;  
-    text-shadow: -1px 1px 3px #3f038d; 
-    font-family: 'Times New Roman', Times, serif; 
+    font-weight: bold;
+    display: block;
+    margin: 9px 0 5px 0;
+    text-shadow: -1px 1px 3px #3f038d;
+    font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
 
-} 
-
-input [type="text"]
-input [type="password"]
-input [type="email"]
-input [type="number"]
-input [type="url"]
-input [type="tel"]
-input [type="date"]
-input [type="color"] 
-select, 
-textarea{
-    padding: 8px; 
-    margin-bottom: 12px; 
-    border: 1px solid#ccc; 
-    border-radius: 4px; 
-    box-sizing: border-box; 
-    width: calc(100% - 25px);  
-  ;
-} 
-
-input [type="number"]{
-    width: 20px;
 }
+
+input [type="text"] input [type="password"] input [type="email"] input [type="number"] input [type="url"] input [type="tel"] input [type="date"] input [type="color"] select,
+textarea {
+    padding: 8px;
+    margin-bottom: 12px;
+    border: 1px solid#ccc;
+    border-radius: 4px;
+    box-sizing: border-box; 
+    background-color: #23034e;
+    width: calc(100% - 25px);
+}
+
 input[type="range"] {
-    width: 100%; 
+    width: 100%;
     margin-bottom: 10px;
-} 
+}
 
-input[type="checkbox"], 
-input[type="radio"]{ 
-    margin-right: 5px; 
-} 
+input[type="checkbox"],
+input[type="radio"] {
+    margin-right: 5px;
+}
 
-input[type="file"]{
-    margin-top: 10px;  
-}  
-
-#arquivo{
+input[type="file"] {
+    margin-top: 10px;
     cursor: pointer;
 }
 
-button{
-    width: 30%; 
-    padding: 10px; 
-    background-color: #6301e2; 
-    color: white; 
-    border: 1px 1px 1px;  
-    border-color: white;
-    border-radius: 4px; 
-    cursor: pointer; 
-    font-size: 16px; 
-    font-family: 'Times New Roman', Times, serif;
-} 
-
-button:hover{
+button {
+    width: 30%;
+    padding: 10px;
     background-color: #6301e2;
-} 
+    color: white;
+    border: 1px -5px 1px;
+    border-color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
 
-.small-input{
-    width: auto; 
+button:hover {
+    background-color: #6301e2;
+}
+
+.small-input {
+    width: auto;
     display: inline-block;
-} 
+}
 
-.inline-label{
-    display: inline-block; 
+.inline-label {
+    display: inline-block;
     margin-right: 10px;
-} 
+}
 
-footer{
-    text-align: center; 
-    padding-left:1%; 
-    color: #ffffff;   
-    text-shadow: -1px 1px 2px #23034e;  
-    background-color: rgba(0, 0, 0, 0.397); 
+footer {
+    text-align: center;
+    padding-left: 1%;
+    color: #ffffff;
+    text-shadow: -1px 1px 2px #23034e;
+    background-color: rgba(0, 0, 0, 0.397);
     border-radius: 4%;
-    font-size: 16px; 
+    font-size: 16px;
     font-family: 'Times New Roman', Times, serif;
 
 }
